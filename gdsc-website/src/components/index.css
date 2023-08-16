@@ -47,6 +47,10 @@ font-family: 'Ubuntu', sans-serif; */
 
 }
 
+#LongSvgLine{
+  z-index: +500;
+}
+
 .GDSCbig{
 
   font-size: 21rem;
@@ -119,7 +123,7 @@ font-family: 'Ubuntu', sans-serif; */
   background-color: red;
 }
 
-.card1{
+.card{
   background-color: #515151;
 
   padding-left: 1rem;
@@ -159,6 +163,65 @@ font-family: 'Ubuntu', sans-serif; */
   padding-right: 1.6rem;
 
   color: white;
+
+}
+
+.card1{
+
+  top: 8rem;
+  right: 20rem;
+}
+
+.card2{
+  top: 25rem;
+  left: 4rem;
+}
+
+.card3{
+  top: 42rem;
+  right: 20rem;
+}
+
+/* THE GIT LINES */
+.lineMedium1{
+
+  position: absolute;
+  right: 6.9rem;
+  top: -5.5rem;
+}
+
+.lineHead1{
+
+  position: absolute;
+  width: 2.4rem;
+  right: 6.01rem;
+  top: 13rem;
+
+}
+
+.lineSmall1{
+
+  position:absolute;
+  right: 10rem;
+  top: 12rem;
+
+  rotate: 90deg;
+
+}
+
+.lineSmall1-1{
+
+  right: 14.5rem;
+}
+
+.lineSmall1-2{
+
+  right: 17.5rem;
+}
+
+
+
+.lineHead2{
 
 }
 

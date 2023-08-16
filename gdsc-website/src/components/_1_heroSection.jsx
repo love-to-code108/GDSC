@@ -2,11 +2,12 @@ import "./index.css"
 import "../../indexOutput.css"
 
 // IMPORTING IMAGES
-import gitStraightHeroBigLine from "../assets/svg/Line 1.svg"
+// import gitStraightHeroBigLine from "../assets/svg/Line 1.svg"
 import gdscLogoAnimation from "../assets/svg/google-developers-seeklogo.com.svg"
 import githubLogo from "../assets/svg/github.svg"
 import gitHead from "../assets/svg/Ellipse 1.svg"
 import gitSmallLine from "../assets/svg/Line 23.svg"
+import gitMediumLine from "../assets/svg/Line 24.svg"
 
 
 // import { GitTag } from "./childComponents/gitTag"
@@ -100,9 +101,9 @@ export const HeroSection = () => {
             </div>
 
 
+            {/* THE VERY LONG SVG LINE */}
 
-
-            <img className="absolute top-[64%] right-[6.9rem]" src={gitStraightHeroBigLine} alt="" />
+            <img id="LongSvgLine" className="absolute top-[64%] right-[6.9rem]" src={gitMediumLine} alt="" />
 
 
 
