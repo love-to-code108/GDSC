@@ -219,9 +219,25 @@ font-family: 'Ubuntu', sans-serif; */
   right: 17.5rem;
 }
 
+/* STARING WITH SECTION 3 OPPORTUNITIES */
+#Opportunities{
 
+  height: 100vh;
+  width: 100%;
+  background-color: green;
 
-.lineHead2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
+
+.OpportunitiesContainer{
+  width: 50%;
+  height: 60%;
+
+  background-color: #515151;
+}
+
+
 
