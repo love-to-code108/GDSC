@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* FONTS ARE WRITTEN HERE */
+
+
+/* font-family: 'Borel', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Jost', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Sora', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+
+.font-sora {
+  font-family: 'Sora', sans-serif;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+#HeroSection_1_{
+  width: 100%;
+  height: 100vh;
+
+  /* background-color: green; */
+
+  overflow: hidden;
+
+  padding-left: 12rem;
+  padding-right: 12rem;
+}
+
+.UEM{
+  width: 50rem ;
+  height: 18rem;
+  /* background-color: yellow; */
+  
+}
+
+.lg_UEM{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  line-height: 0;
+}
+
+
+.Jaipur{
+  width: 25rem;
+  height: 6rem;
+
+  background-color: rgba(197, 182, 182,0);
+}
+
+.GoogleStudentDeveloperStudentClubs{
+
+  width: 38rem;
+}

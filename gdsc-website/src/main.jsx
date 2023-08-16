@@ -1,6 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './index.css'
+import './components/index.css'
+import "./indexOutput.css"
+
+
 
 // IMPORTING ALL THE COMPONENTS BELOW 
 import { HeroSection } from './components/_1_heroSection'

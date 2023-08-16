@@ -534,7 +534,158 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.bottom-\[1rem\] {
+  bottom: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-\[\#515151\] {
+  --tw-text-opacity: 1;
+  color: rgb(81 81 81 / var(--tw-text-opacity));
+}
+
+.text-\[\#C3C3C3\] {
+  --tw-text-opacity: 1;
+  color: rgb(195 195 195 / var(--tw-text-opacity));
+}
+
+/* FONTS ARE WRITTEN HERE */
+
+/* font-family: 'Borel', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Jost', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Sora', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+.font-sora {
+  font-family: 'Sora', sans-serif;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+#HeroSection_1_{
+  width: 100%;
+  height: 100vh;
+  /* background-color: green; */
+  overflow: hidden;
+  padding-left: 12rem;
+  padding-right: 12rem;
+}
+
+.UEM{
+  width: 50rem ;
+  height: 18rem;
+  /* background-color: yellow; */
+}
+
+.lg_UEM{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  line-height: 0;
+}
+
+.Jaipur{
+  width: 25rem;
+  height: 6rem;
+  background-color: rgba(197, 182, 182,0);
+}
+
+.GoogleStudentDeveloperStudentClubs{
+  width: 38rem;
+}
+
+@media (min-width: 1024px) {
+  .lg\:absolute {
+    position: absolute;
+  }
+
+  .lg\:right-\[-11rem\] {
+    right: -11rem;
+  }
+
+  .lg\:right-\[5rem\] {
+    right: 5rem;
+  }
+
+  .lg\:top-\[66\%\] {
+    top: 66%;
+  }
+
+  .lg\:top-\[-5rem\] {
+    top: -5rem;
+  }
+
+  .lg\:top-\[-2rem\] {
+    top: -2rem;
+  }
+
+  .lg\:top-\[-3rem\] {
+    top: -3rem;
+  }
+
+  .lg\:left-\[-4rem\] {
+    left: -4rem;
+  }
+
+  .lg\:left-\[4rem\] {
+    left: 4rem;
+  }
+
+  .lg\:left-\[12rem\] {
+    left: 12rem;
+  }
+
+  .lg\:left-\[14rem\] {
+    left: 14rem;
+  }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .lg\:text-8xl {
+    font-size: 6rem;
+    line-height: 1;
+  }
+
+  .lg\:text-\[20rem\] {
+    font-size: 20rem;
+  }
+
+  .lg\:font-black {
+    font-weight: 900;
+  }
 }
