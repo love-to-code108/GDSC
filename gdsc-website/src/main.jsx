@@ -1,10 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
+
+// IMPORTING ALL THE COMPONENTS BELOW 
+import { HeroSection } from './components/_1_heroSection'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+
+    {/* THIS IS THE HERO SECTION */}
+    <HeroSection/>
   </React.StrictMode>,
 )
