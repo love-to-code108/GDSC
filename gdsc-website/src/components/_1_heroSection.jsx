@@ -102,7 +102,7 @@ export const HeroSection = () => {
 
 
 
-            <img className="absolute top-[40%] right-[6.9rem]" src={gitStraightHeroBigLine} alt="" />
+            <img className="absolute top-[64%] right-[6.9rem]" src={gitStraightHeroBigLine} alt="" />
 
 
 
@@ -117,7 +117,7 @@ export const HeroSection = () => {
 
                 <img className="
             lg:w-[2.4rem]" src={githubLogo} alt="" />
-                <p className=" text-xl lg:ml-4">git branch GDSC</p>
+                <p className=" text-xl lg:ml-4">echo " LETS BUILD SOMETHING  "</p>
 
                 {/* GIT HEAD */}
                 <img className=" absolute
@@ -144,25 +144,44 @@ export const HeroSection = () => {
 
                 <img className="
             lg:w-[2.4rem]" src={githubLogo} alt="" />
-                <p className=" text-xl lg:ml-4">git checkout GDSC</p>
+                <p className=" text-xl lg:ml-4">git branch GDSC</p>
 
+                {/* GIT HEAD */}
                 <img className=" absolute
             lg:w-[2.5rem] lg:bottom-[-2.6rem] lg:right-[1rem]" src={gitHead} alt="" />
 
-                {/*  */}
+                {/* GIT LINE */}
                 <img className=" absolute
             lg:top-[6.5rem] lg:right-[1.9rem]" src={gitSmallLine} alt="" />
 
                 {/* GIT HEAD */}
                 <img className=" absolute
-            lg:w-[2.4rem] lg:bottom-[-9rem] lg:right-[1rem]" src={gitHead} alt="" />
+            lg:w-[2.4rem] lg:bottom-[-9.2rem] lg:right-[1rem]" src={gitHead} alt="" />
 
             </div>
 
 
 
+            {/* THE ECHO TAG THAT SAYS LETS BUILD SOMETHING AMAZING TOGETHER */}
+            <div id="gitTag" className=" absolute flex justify-evenly items-center font-jetbrain rounded-lg
+        lg:px-8 lg:py-3 bg-white drop-shadow-lg lg:top-[30.5rem] lg:right-[5rem]"
+            >
 
+                <img className="
+            lg:w-[2.4rem]" src={githubLogo} alt="" />
+                <p className=" text-xl lg:ml-4">git checkout GDSC</p>
 
+                {/* GIT HEAD */}
+                <img className=" absolute
+            lg:w-[2.5rem] lg:bottom-[-2.6rem] lg:right-[1rem]" src={gitHead} alt="" />
+
+                {/* GIT LINE */}
+                <img className=" absolute
+            lg:top-[6.5rem] lg:right-[1.9rem]" src={gitSmallLine} alt="" />
+
+                
+
+            </div>
 
 
         </div>

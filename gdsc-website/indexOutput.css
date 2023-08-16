@@ -550,12 +550,8 @@ video {
   right: 6.9rem;
 }
 
-.top-\[50\%\] {
-  top: 50%;
-}
-
-.top-\[40\%\] {
-  top: 40%;
+.top-\[64\%\] {
+  top: 64%;
 }
 
 .flex {
@@ -644,6 +640,10 @@ font-family: 'Ubuntu', sans-serif; */
   font-family: 'JetBrains Mono', monospace;
 }
 
+/* ========================================= */
+
+/* THE HERO SECTION STARTS HERE */
+
 #HeroSection_1_{
   width: 100%;
   height: 100vh;
@@ -703,6 +703,16 @@ font-family: 'Ubuntu', sans-serif; */
   width: 15%;
 }
 
+/* ====================================== */
+
+/* THE ABOUT GDSC SECTION */
+
+#AboutSection{
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+}
+
 @media (min-width: 1024px) {
   .lg\:absolute {
     position: absolute;
@@ -712,8 +722,12 @@ font-family: 'Ubuntu', sans-serif; */
     bottom: -2.6rem;
   }
 
-  .lg\:bottom-\[-9\.4rem\] {
-    bottom: -9.4rem;
+  .lg\:bottom-\[-9\.2rem\] {
+    bottom: -9.2rem;
+  }
+
+  .lg\:bottom-\[-9rem\] {
+    bottom: -9rem;
   }
 
   .lg\:left-\[14rem\] {
@@ -726,6 +740,10 @@ font-family: 'Ubuntu', sans-serif; */
 
   .lg\:right-\[-11rem\] {
     right: -11rem;
+  }
+
+  .lg\:right-\[1\.95rem\] {
+    right: 1.95rem;
   }
 
   .lg\:right-\[1\.9rem\] {
@@ -760,8 +778,16 @@ font-family: 'Ubuntu', sans-serif; */
     top: -9.6rem;
   }
 
-  .lg\:top-\[21\.5rem\] {
-    top: 21.5rem;
+  .lg\:top-\[17rem\] {
+    top: 17rem;
+  }
+
+  .lg\:top-\[30\.5rem\] {
+    top: 30.5rem;
+  }
+
+  .lg\:top-\[4rem\] {
+    top: 4rem;
   }
 
   .lg\:top-\[6\.5rem\] {
@@ -770,50 +796,6 @@ font-family: 'Ubuntu', sans-serif; */
 
   .lg\:top-\[69\%\] {
     top: 69%;
-  }
-
-  .lg\:top-\[8rem\] {
-    top: 8rem;
-  }
-
-  .lg\:right-\[2\.01rem\] {
-    right: 2.01rem;
-  }
-
-  .lg\:right-\[1\.5rem\] {
-    right: 1.5rem;
-  }
-
-  .lg\:right-\[1\.95rem\] {
-    right: 1.95rem;
-  }
-
-  .lg\:bottom-\[-9rem\] {
-    bottom: -9rem;
-  }
-
-  .lg\:top-\[2rem\] {
-    top: 2rem;
-  }
-
-  .lg\:top-\[4rem\] {
-    top: 4rem;
-  }
-
-  .lg\:top-\[2\.5rem\] {
-    top: 2.5rem;
-  }
-
-  .lg\:top-\[18rem\] {
-    top: 18rem;
-  }
-
-  .lg\:top-\[15rem\] {
-    top: 15rem;
-  }
-
-  .lg\:top-\[17rem\] {
-    top: 17rem;
   }
 
   .lg\:ml-4 {
@@ -878,4 +860,3 @@ font-family: 'Ubuntu', sans-serif; */
   }
 }
 
-  
