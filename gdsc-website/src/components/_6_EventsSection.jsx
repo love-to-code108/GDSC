@@ -2,9 +2,9 @@ import "./index.css"
 import "../../indexOutput.css"
 
 // IMPORTING THE ASSETS
-import calander from "../assets/"
-
-import eventPoster from "../assets/jpg/"
+import calander from "../assets/png/calendar (2).png"
+import clock from "../assets/svg/icons8-clock.svg"
+import eventPoster from "../assets/jpg/Events.jpg"
 
 
 
@@ -28,31 +28,41 @@ export const EventsSection = () => {
 
             <div>
                 {/* EVENT CARD _1_ */}
-                <div>
+                <div className="eventContainer font-sora text-white">
 
                     <div>
-                        <img src={} alt="" />
+                        <img className="eventImageEdit" src={eventPoster} alt="" />
                     </div>
 
-                    <p>UPCOMMING EVENT NAME</p>
+                    <p className="eventCardName">UPCOMMING EVENT</p>
 
-                    <div>
-                        <img src={} alt="" />
-                        <p>Event Date:  9th
-                            August 1945</p>
+
+                    <div className="eventDetailsWrapper">
+                        <div className="flex items-center justify-start dateWrapper">
+                            <img className="calanderImgEdit icons" src={calander} alt="" />
+                            <p className="eventDetails">Event Date:  9th
+                                August 1945</p>
+                        </div>
+
+
+
+                        <div className="flex items-center justify-start timeWrapper">
+                            <img className="clockImgEdit icons" src={clock} alt="" />
+                            <p className="eventDetails">Time: 8:15 AM</p>
+                        </div>
+
                     </div>
 
 
 
-                    <div>
-                        <img src={} alt="" />
-                        <p>Time: 8:15 AM</p>
-                    </div>
-
-
-                    
                 </div>
             </div>
+
+
+
+
+
+
         </div>
     );
 }

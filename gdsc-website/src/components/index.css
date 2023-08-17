@@ -431,5 +431,66 @@ font-family: 'Ubuntu', sans-serif; */
 #EventSection{
 
   height: 100vh;
-  background-color: red;
+  background-color: white;
+}
+
+.eventContainer{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 30rem;
+  padding: 2rem;
+
+  background-color: #363636;
+
+  
+
+}
+
+
+
+.eventCardName{
+
+  font-size: 2rem;
+  padding-top: 1rem;
+
+  font-weight: 900;
+  
+
+}
+
+.icons{
+
+  width: 2rem;
+  margin-right: 1rem;
+  /* padding-top: 1rem; */
+  
+}
+
+.calanderImgEdit{
+  margin-right: 1rem;
+}
+
+
+.dateWrapper{
+
+  margin-top: 2rem;
+}
+.timeWrapper{
+
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.eventDetailsWrapper{
+
+  margin-top: 1rem;
+}
+
+
+.eventDetails{
+
+  font-size: 1.2rem;
 }
