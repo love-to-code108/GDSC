@@ -428,4 +428,8 @@ font-family: 'Ubuntu', sans-serif; */
 
 
 /* THE EVENTS SECTION */
+#EventSection{
 
+  height: 100vh;
+  background-color: red;
+}

@@ -982,6 +982,11 @@ font-family: 'Ubuntu', sans-serif; */
 
 /* THE EVENTS SECTION */
 
+#EventSection{
+  height: 100vh;
+  background-color: red;
+}
+
 @media (min-width: 1024px) {
   .lg\:absolute {
     position: absolute;
@@ -1128,4 +1133,3 @@ font-family: 'Ubuntu', sans-serif; */
     font-weight: 900;
   }
 }
-
