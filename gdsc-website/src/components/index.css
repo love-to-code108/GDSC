@@ -47,6 +47,19 @@ font-family: 'Ubuntu', sans-serif; */
 
 }
 
+#JoinButton{
+
+  user-select: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#JoinButton:hover{
+
+  scale: 1.02;
+}
+
+
 #LongSvgLine{
   z-index: +500;
 }
@@ -121,6 +134,7 @@ font-family: 'Ubuntu', sans-serif; */
   height: 100vh;
 
   background-color: white;
+  margin-bottom: 5rem;
 }
 
 .card{
@@ -131,6 +145,8 @@ font-family: 'Ubuntu', sans-serif; */
   padding-bottom: 1rem;
 
   width: 55rem;
+
+  border-radius: 0.3rem;
 
 
 }
@@ -219,6 +235,90 @@ font-family: 'Ubuntu', sans-serif; */
   right: 17.5rem;
 }
 
+.lineHead2{
+
+  width: 2.4rem;
+  position: absolute;
+
+  right: 25.5rem;
+  top: 31rem;
+}
+
+.lineHead2-2{
+
+  right: 6rem;
+  top: 48rem;
+}
+
+.lineHead2-3{
+
+  right: 82.5rem;
+  top: 48.5rem;
+}
+
+.lineMedium2{
+
+  position: absolute;
+  right: 26.4rem;
+  top: 12.5rem;
+}
+
+
+
+.lineMedium3{
+
+  position: absolute;
+  left:80rem ;
+  bottom: 12rem;
+  rotate: 90deg;
+}
+
+
+.lineMedium3-1{
+
+  left: 67rem;
+  bottom:12rem ;
+}
+
+
+.lineMedium4{
+
+  position: absolute;
+  right: 6.9rem;
+  top: 15rem;
+}
+
+.lineMedium4-1{
+
+  right: 6.9rem;
+  top: 29.5rem;
+}
+
+.lineMedium5{
+
+  position: absolute;
+  bottom: -5rem;
+}
+
+.lineMedium5-1{
+
+  right: 17rem;
+  rotate: 90deg;
+}
+
+
+.lineMedium5-2{
+
+  bottom: -16rem;
+  left: 33.5rem;
+}
+
+.lineMedium5-3{
+
+  bottom: -5.5rem;
+  left: 44rem;
+  rotate: 90deg;
+}
 /* STARING WITH SECTION 3 OPPORTUNITIES */
 #Opportunities{
 
@@ -234,12 +334,14 @@ font-family: 'Ubuntu', sans-serif; */
 
 .OpportunitiesContainer{
   width: 50%;
-  height: 82%;
+  height: 49rem;
 
   background-color: #515151;
   /* margin-top: 1rem; */
 
   padding: 2rem;
+
+  border-radius: 0.5rem;
   
 }
 
@@ -293,11 +395,13 @@ font-family: 'Ubuntu', sans-serif; */
 /* TECHNOLOGIES WE ARE EXITED ABOUT SECTION */
 
 #TechnologiesWeAreExitedAbout{
-  height: 200vh;
+  height: 240vh;
   width: 100%;
   background: white;
 
   position: relative;
+
+  margin-bottom: 20rem;
 }
 
 
@@ -336,7 +440,47 @@ font-family: 'Ubuntu', sans-serif; */
 
   margin-right: 20rem;
   margin-top: 6rem;
+
+  border-radius: 0.4rem;
 }
+
+
+
+#gitAdd{
+
+  position: absolute;
+  bottom: 16rem;
+  right: 6.8rem;
+}
+
+#gitCommit{
+
+  position: absolute;
+  bottom: 2.8rem;
+  right: 6.8rem;
+}
+
+#gitPush{
+
+  position: absolute;
+  bottom: -10.4rem;
+  right: 6.8rem;
+}
+
+.mediumBig{
+
+  position: absolute;
+  top: 12rem;
+  right: 13.2rem;
+}
+
+.mediumBig2{
+
+  position: absolute;
+  top: 47rem;
+  right: 13.2rem;
+}
+
 
 
 
@@ -468,6 +612,8 @@ margin:4rem 5rem ;
 
   height: 105vh;
   background-color: white;
+
+  margin-bottom: 10rem;
 }
 
 

@@ -1,6 +1,10 @@
 import "./index.css"
 import "../../indexOutput.css"
 
+import gitMediumLine from "../assets/svg/Line 24.svg"
+import gitHead from "../assets/svg/Ellipse 1.svg"
+
+
 export const OpportunitiesSection = () => {
 
 
@@ -9,7 +13,18 @@ export const OpportunitiesSection = () => {
 
         <div id="Opportunities">
 
-            <div className="OpportunitiesContainer">
+
+
+
+            {/* ADDING THE GIT STYLES */}
+
+
+        
+
+
+
+
+            <div className="OpportunitiesContainer drop-shadow-xl">
 
 
                 <div className="relative OpportunitiesWrapper">

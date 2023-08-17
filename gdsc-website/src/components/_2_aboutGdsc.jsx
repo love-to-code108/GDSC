@@ -28,19 +28,31 @@ export const AboutSection = () => {
 
 
                 <img className="lineHead2" src={gitHead} alt="" />
-                <img className="lineHead2" src={gitHead} alt="" />
-                <img className="lineHead2" src={gitHead} alt="" />
+                <img className="lineHead2 lineHead2-2" src={gitHead} alt="" />
+                <img className="lineHead2 lineHead2-3" src={gitHead} alt="" />
 
+                {/* BRANCH 2 */}
                 <img className="lineMedium2" src={gitMediumLine} alt="" />
+                <img className="lineMedium3" src={gitMediumLine} alt="" />
+                <img className="lineMedium3 lineMedium3-1" src={gitMediumLine} alt="" />
 
-                <img className="lineSmall2" src={gitSmallLine} alt="" />
-                <img className="lineSmall2 lineSmall2-1" src={gitSmallLine} alt="" />
+                {/* THE MAIN  */}
+                <img className="lineMedium4" src={gitMediumLine} alt="" />
+                <img className="lineMedium4 lineMedium4-1" src={gitMediumLine} alt="" />
+
+                <img className="lineMedium5 lineMedium5-1" src={gitMediumLine} alt="" />
+                <img className="lineMedium5 lineMedium5-2" src={gitMediumLine} alt="" />
+                <img className="lineMedium5 lineMedium5-3" src={gitMediumLine} alt="" />
+
+
+
+                
             </div>
 
 
 
             {/*THE CARD  1 */}
-            <div className="card1 card flex flex-col absolute">
+            <div className="card1 card flex flex-col absolute drop-shadow-lg">
                 <p className="conceptOfGdsc font-sora text-white">Concept Of GDSC</p>
 
 
@@ -51,7 +63,7 @@ export const AboutSection = () => {
 
 
             {/* THE CARD 2 */}
-            <div className="card2 card flex flex-col absolute">
+            <div className="card2 card flex flex-col absolute drop-shadow-lg">
                 <p className="conceptOfGdsc font-sora text-white">Why GDSC?</p>
 
 
@@ -63,7 +75,7 @@ export const AboutSection = () => {
 
 
             {/* THE CARD 3 */}
-            <div className="card3 card flex flex-col absolute">
+            <div className="card3 card flex flex-col absolute drop-shadow-lg">
                 <p className="conceptOfGdsc font-sora text-white">Target Audience</p>
 
 

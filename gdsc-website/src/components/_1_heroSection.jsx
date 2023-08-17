@@ -42,7 +42,7 @@ export const HeroSection = () => {
 
             <div className="relative 
             UEM flex justify-center items-center
-            lg:right-[12rem] lg:top-[69%]" >
+            lg:right-[12rem] lg:top-[37rem]" >
 
 
                 <p className="font-sora text-[#C3C3C3] lg_UEM
@@ -89,7 +89,7 @@ export const HeroSection = () => {
 
 
                 {/* THE JOIN BUTTON */}
-                <div className="absolute bg-[#4385f3] text-white flex justify-center items-center  
+                <div id="JoinButton" className="absolute bg-[#4385f3] text-white flex justify-center items-center  
                 font-sora lg:font-black lg:text-5xl lg:w-[4em] lg:h-[1.4em] lg:pt-1 
                 lg:top-[-15rem] lg:left-[4rem] drop-shadow-lg">
                     JOIN
@@ -103,7 +103,7 @@ export const HeroSection = () => {
 
             {/* THE VERY LONG SVG LINE */}
 
-            <img id="LongSvgLine" className="absolute top-[64%] right-[6.9rem]" src={gitMediumLine} alt="" />
+            <img id="LongSvgLine" className="absolute top-[40rem] right-[6.9rem]" src={gitMediumLine} alt="" />
 
 
 

@@ -6,6 +6,7 @@ import githubLogo from "../assets/svg/github.svg"
 import gitHead from "../assets/svg/Ellipse 1.svg"
 import gitSmallLine from "../assets/svg/Line 23.svg"
 // import gitMediumLine from "../assets/svg/Line 24.svg"
+import gitMediumBig from "../assets/svg/mediumBig.svg"
 
 
 export const TechnologiesWeAreExitedAbout = () => {
@@ -27,6 +28,9 @@ export const TechnologiesWeAreExitedAbout = () => {
             </div>
 
 
+            {/* ADDING THE GIT STYLES */}
+
+
 
 
 
@@ -36,7 +40,7 @@ export const TechnologiesWeAreExitedAbout = () => {
 
 
             {/* ANDROID DEVELOPMENT   _1_ */}
-            <div className="_technologiesCardDiv font-poppins">
+            <div className="_technologiesCardDiv font-poppins drop-shadow-lg">
                 <p className=" text-5xl mb-6">Android Development</p>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis egestas integer eget aliquet nibh praesent tristique. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique.
@@ -46,7 +50,7 @@ export const TechnologiesWeAreExitedAbout = () => {
 
 
             {/* WEB DEVELOPMENT _2_ */}
-            <div className="_technologiesCardDiv font-poppins">
+            <div className="_technologiesCardDiv font-poppins drop-shadow-lg">
                 <p className=" text-5xl mb-6">Web Development</p>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis egestas integer eget aliquet nibh praesent tristique. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique.
@@ -55,7 +59,7 @@ export const TechnologiesWeAreExitedAbout = () => {
 
 
             {/* CLOUD COMPUTING _3_ */}
-            <div className="_technologiesCardDiv font-poppins">
+            <div className="_technologiesCardDiv font-poppins drop-shadow-lg">
                 <p className=" text-5xl mb-6">Cloud Computing</p>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis egestas integer eget aliquet nibh praesent tristique. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique.
@@ -64,7 +68,7 @@ export const TechnologiesWeAreExitedAbout = () => {
 
 
             {/* MACHINE INTELLEGIENCE _4_ */}
-            <div className="_technologiesCardDiv font-poppins">
+            <div className="_technologiesCardDiv font-poppins drop-shadow-lg">
                 <p className=" text-5xl mb-6">Machine Intelligence</p>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis egestas integer eget aliquet nibh praesent tristique. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique.
@@ -73,9 +77,14 @@ export const TechnologiesWeAreExitedAbout = () => {
 
 
 
+            <img className="mediumBig" src={gitMediumBig} alt="" />
+            <img className="mediumBig2" src={gitMediumBig} alt="" />
+
+
+
             {/* THE GIT ADD . TAG */}
-            <div id="gitTag" className=" absolute flex justify-evenly items-center font-jetbrain rounded-lg
-        lg:px-8 lg:py-3 bg-white drop-shadow-lg lg:top-[17rem] lg:right-[5rem]"
+            <div id="gitAdd" className=" absolute flex justify-evenly items-center font-jetbrain rounded-lg
+        lg:px-8 lg:py-3 bg-white drop-shadow-lg "
             >
 
                 <img className="
@@ -100,8 +109,8 @@ export const TechnologiesWeAreExitedAbout = () => {
 
 
             {/* THE GIT COMMIT  TAG */}
-            <div id="gitTag" className=" absolute flex justify-evenly items-center font-jetbrain rounded-lg
-        lg:px-8 lg:py-3 bg-white drop-shadow-lg lg:top-[17rem] lg:right-[5rem]"
+            <div id="gitCommit" className=" absolute flex justify-evenly items-center font-jetbrain rounded-lg
+        lg:px-8 lg:py-3 bg-white drop-shadow-lg "
             >
 
                 <img className="
@@ -124,8 +133,8 @@ export const TechnologiesWeAreExitedAbout = () => {
 
 
             {/* THE GIT PUSH  TAG */}
-            <div id="gitTag" className=" absolute flex justify-evenly items-center font-jetbrain rounded-lg
-        lg:px-8 lg:py-3 bg-white drop-shadow-lg lg:top-[17rem] lg:right-[5rem]"
+            <div id="gitPush" className=" absolute flex justify-evenly items-center font-jetbrain rounded-lg
+        lg:px-8 lg:py-3 bg-white drop-shadow-lg "
             >
 
                 <img className="
@@ -133,16 +142,16 @@ export const TechnologiesWeAreExitedAbout = () => {
                 <p className=" text-xl lg:ml-4">git push origin GDSC</p>
 
                 {/* GIT HEAD */}
-                <img className=" absolute
-            lg:w-[2.5rem] lg:bottom-[-2.6rem] lg:right-[1rem]" src={gitHead} alt="" />
+                {/* <img className=" absolute
+            lg:w-[2.5rem] lg:bottom-[-2.6rem] lg:right-[1rem]" src={gitHead} alt="" /> */}
 
                 {/* GIT LINE */}
-                <img className=" absolute
-            lg:top-[6.5rem] lg:right-[1.9rem]" src={gitSmallLine} alt="" />
+                {/* <img className=" absolute
+            lg:top-[6.5rem] lg:right-[1.9rem]" src={gitSmallLine} alt="" /> */}
 
                 {/* GIT HEAD */}
-                <img className=" absolute
-            lg:w-[2.4rem] lg:bottom-[-9.2rem] lg:right-[1rem]" src={gitHead} alt="" />
+                {/* <img className=" absolute
+            lg:w-[2.4rem] lg:bottom-[-9.2rem] lg:right-[1rem]" src={gitHead} alt="" /> */}
 
             </div>
         </div>

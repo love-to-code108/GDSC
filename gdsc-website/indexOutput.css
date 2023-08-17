@@ -550,8 +550,8 @@ video {
   right: 6.9rem;
 }
 
-.top-\[64\%\] {
-  top: 64%;
+.top-\[40rem\] {
+  top: 40rem;
 }
 
 .mb-6 {
@@ -580,6 +580,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-end {
@@ -653,6 +657,11 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+.drop-shadow-xl {
+  --tw-drop-shadow: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 /* FONTS ARE WRITTEN HERE */
 
 /* font-family: 'Borel', cursive;
@@ -689,6 +698,18 @@ font-family: 'Ubuntu', sans-serif; */
   height: 100vh;
   /* background-color: green; */
   /* overflow: hidden; */
+}
+
+#JoinButton{
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#JoinButton:hover{
+  scale: 1.02;
 }
 
 #LongSvgLine{
@@ -754,7 +775,8 @@ font-family: 'Ubuntu', sans-serif; */
 #AboutSection{
   width: 100%;
   height: 100vh;
-  background-color: red;
+  background-color: white;
+  margin-bottom: 5rem;
 }
 
 .card{
@@ -763,6 +785,7 @@ font-family: 'Ubuntu', sans-serif; */
   padding-top: 1rem;
   padding-bottom: 1rem;
   width: 55rem;
+  border-radius: 0.3rem;
 }
 
 .conceptOfGdsc{
@@ -832,6 +855,73 @@ font-family: 'Ubuntu', sans-serif; */
   right: 17.5rem;
 }
 
+.lineHead2{
+  width: 2.4rem;
+  position: absolute;
+  right: 25.5rem;
+  top: 31rem;
+}
+
+.lineHead2-2{
+  right: 6rem;
+  top: 48rem;
+}
+
+.lineHead2-3{
+  right: 82.5rem;
+  top: 48.5rem;
+}
+
+.lineMedium2{
+  position: absolute;
+  right: 26.4rem;
+  top: 12.5rem;
+}
+
+.lineMedium3{
+  position: absolute;
+  left:80rem ;
+  bottom: 12rem;
+  rotate: 90deg;
+}
+
+.lineMedium3-1{
+  left: 67rem;
+  bottom:12rem ;
+}
+
+.lineMedium4{
+  position: absolute;
+  right: 6.9rem;
+  top: 15rem;
+}
+
+.lineMedium4-1{
+  right: 6.9rem;
+  top: 29.5rem;
+}
+
+.lineMedium5{
+  position: absolute;
+  bottom: -5rem;
+}
+
+.lineMedium5-1{
+  right: 17rem;
+  rotate: 90deg;
+}
+
+.lineMedium5-2{
+  bottom: -16rem;
+  left: 33.5rem;
+}
+
+.lineMedium5-3{
+  bottom: -5.5rem;
+  left: 44rem;
+  rotate: 90deg;
+}
+
 /* STARING WITH SECTION 3 OPPORTUNITIES */
 
 #Opportunities{
@@ -845,10 +935,11 @@ font-family: 'Ubuntu', sans-serif; */
 
 .OpportunitiesContainer{
   width: 50%;
-  height: 82%;
+  height: 49rem;
   background-color: #515151;
   /* margin-top: 1rem; */
   padding: 2rem;
+  border-radius: 0.5rem;
 }
 
 .Opportunities{
@@ -886,10 +977,11 @@ font-family: 'Ubuntu', sans-serif; */
 /* TECHNOLOGIES WE ARE EXITED ABOUT SECTION */
 
 #TechnologiesWeAreExitedAbout{
-  height: 200vh;
+  height: 240vh;
   width: 100%;
   background: white;
   position: relative;
+  margin-bottom: 20rem;
 }
 
 .TechnologiesHeading{
@@ -916,14 +1008,65 @@ font-family: 'Ubuntu', sans-serif; */
   font-size: 1.4rem;
   margin-right: 20rem;
   margin-top: 6rem;
+  border-radius: 0.4rem;
+}
+
+#gitAdd{
+  position: absolute;
+  bottom: 16rem;
+  right: 6.8rem;
+}
+
+#gitCommit{
+  position: absolute;
+  bottom: 2.8rem;
+  right: 6.8rem;
+}
+
+#gitPush{
+  position: absolute;
+  bottom: -10.4rem;
+  right: 6.8rem;
+}
+
+.mediumBig{
+  position: absolute;
+  top: 12rem;
+  right: 13.2rem;
+}
+
+.mediumBig2{
+  position: absolute;
+  top: 47rem;
+  right: 13.2rem;
 }
 
 /* TEAM SECTION BELOW HERE */
 
 #TeamSection{
-  height: 100vh;
+  height: 120vh;
   width: 100%;
   background-color: white;
+}
+
+.TeamsHeadingWrapper{
+  position: relative;
+  margin:4rem 5rem ;
+}
+
+.headingTeams{
+  font-size: 5rem;
+  font-weight: 900;
+  color: #363636;
+}
+
+.subheadingTeams{
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: #363636;
+  position: absolute;
+  bottom: -0.4rem;
+  left: 0;
 }
 
 .teamMemberGrid{
@@ -949,6 +1092,12 @@ font-family: 'Ubuntu', sans-serif; */
   align-items: start;
   background-color: #E8E8E8;
   border-radius: 0.5rem;
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.teamCard:hover{
+  scale: 1.02;
 }
 
 .teamMemberPicEdit{
@@ -983,8 +1132,108 @@ font-family: 'Ubuntu', sans-serif; */
 /* THE EVENTS SECTION */
 
 #EventSection{
-  height: 100vh;
-  background-color: red;
+  height: 105vh;
+  background-color: white;
+  margin-bottom: 10rem;
+}
+
+.EventsHeadingWrapper{
+  margin-bottom: 6rem;
+}
+
+.eventContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30rem;
+  padding: 2rem;
+  background-color: #363636;
+  border-radius: 0.5rem;
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.eventContainer:hover{
+  scale: 1.02;
+}
+
+.eventCardName{
+  font-size: 2rem;
+  padding-top: 1rem;
+  font-weight: 900;
+}
+
+.icons{
+  width: 2rem;
+  margin-right: 1rem;
+  /* padding-top: 1rem; */
+}
+
+.calanderImgEdit{
+  margin-right: 1rem;
+}
+
+.dateWrapper{
+  margin-top: 2rem;
+}
+
+.timeWrapper{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.eventDetailsWrapper{
+  margin-top: 1rem;
+}
+
+.eventDetails{
+  font-size: 1.2rem;
+}
+
+/* CONTACT US SECTION  */
+
+#contactUsSection{
+  height: 20rem;
+  background-color: #363636;
+}
+
+.letsConnect{
+  color: white;
+  font-size: 4rem;
+  margin-left: 5rem;
+  padding-top: 2rem;
+  font-weight: 900;
+}
+
+.gdscMainConnect{
+  rotate: 90deg;
+  font-size: 4rem;
+  font-weight: 900;
+  left: 30%;
+  top: 4.2rem;
+  background: #cccccc;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+  color: white;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.gdscMainConnect:hover{
+  scale: 1.05;
+}
+
+.instagram{
+  width: 2rem;
+  margin-left: 5rem;
+}
+
+.socialsContainer{
+  width: 20%;
+}
+
+.socials{
+  margin-right: 1rem;
 }
 
 @media (min-width: 1024px) {
@@ -1060,16 +1309,16 @@ font-family: 'Ubuntu', sans-serif; */
     top: 30.5rem;
   }
 
+  .lg\:top-\[37rem\] {
+    top: 37rem;
+  }
+
   .lg\:top-\[4rem\] {
     top: 4rem;
   }
 
   .lg\:top-\[6\.5rem\] {
     top: 6.5rem;
-  }
-
-  .lg\:top-\[69\%\] {
-    top: 69%;
   }
 
   .lg\:ml-4 {
