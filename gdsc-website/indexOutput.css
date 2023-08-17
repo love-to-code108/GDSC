@@ -562,6 +562,10 @@ video {
   flex-direction: column;
 }
 
+.items-end {
+  align-items: flex-end;
+}
+
 .items-center {
   align-items: center;
 }
@@ -651,6 +655,10 @@ font-family: 'Ubuntu', sans-serif; */
   /* overflow: hidden; */
 }
 
+#LongSvgLine{
+  z-index: +500;
+}
+
 .GDSCbig{
   font-size: 21rem;
   rotate: 90deg;
@@ -711,6 +719,161 @@ font-family: 'Ubuntu', sans-serif; */
   width: 100%;
   height: 100vh;
   background-color: red;
+}
+
+.card{
+  background-color: #515151;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 55rem;
+}
+
+.conceptOfGdsc{
+  font-size: 2.5rem ;
+  font-weight: 800;
+}
+
+.card1Para{
+  width: 42rem;
+  font-size: 1.1rem;
+}
+
+.gdscMain{
+  rotate: 90deg;
+  font-size: 4rem;
+  font-weight: 900;
+  right: 0;
+  top: 4rem;
+  background: #cccccc;
+  padding-left: 1rem;
+  padding-right: 1.6rem;
+  color: white;
+}
+
+.card1{
+  top: 8rem;
+  right: 20rem;
+}
+
+.card2{
+  top: 25rem;
+  left: 4rem;
+}
+
+.card3{
+  top: 42rem;
+  right: 20rem;
+}
+
+/* THE GIT LINES */
+
+.lineMedium1{
+  position: absolute;
+  right: 6.9rem;
+  top: -5.5rem;
+}
+
+.lineHead1{
+  position: absolute;
+  width: 2.4rem;
+  right: 6.01rem;
+  top: 13rem;
+}
+
+.lineSmall1{
+  position:absolute;
+  right: 10rem;
+  top: 12rem;
+  rotate: 90deg;
+}
+
+.lineSmall1-1{
+  right: 14.5rem;
+}
+
+.lineSmall1-2{
+  right: 17.5rem;
+}
+
+/* STARING WITH SECTION 3 OPPORTUNITIES */
+
+#Opportunities{
+  height: 100vh;
+  width: 100%;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.OpportunitiesContainer{
+  width: 50%;
+  height: 82%;
+  background-color: #515151;
+  /* margin-top: 1rem; */
+  padding: 2rem;
+}
+
+.Opportunities{
+  font-size: 6rem;
+  font-weight: 900;
+  color: white;
+}
+
+.OpportunitiesLine2{
+  font-size: 2rem;
+  font-weight: 900;
+  position: absolute;
+  bottom: -0.9rem;
+  right: 10.5rem;
+  color: white;
+}
+
+.OpportunitiesWrapper{
+  margin-bottom: 2rem;
+}
+
+.spanInside{
+  background-color: white;
+  color: #515151;
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+.OpportunitesPoints{
+  font-size: 1.3rem;
+  color: white;
+  margin-left: 4rem;
+  margin-top: 2.5rem;
+}
+
+/* TECHNOLOGIES WE ARE EXITED ABOUT SECTION */
+
+#TechnologiesWeAreExitedAbout{
+  height: 100vh;
+  width: 100%;
+  background: yellow;
+  position: relative;
+}
+
+.TechnologiesHeading{
+  font-size: 5rem;
+  font-weight: 900;
+  color: #363636;
+}
+
+.TechnologiesSubHeading{
+  font-size: 2rem;
+  font-weight: 900;
+  color: #363636;
+}
+
+._technologiesCardDiv{
+  width: 70rem;
+  background-color: #515151;
+  color: white;
+  padding: 2rem;
+  font-size: 1.4rem;
 }
 
 @media (min-width: 1024px) {

@@ -234,10 +234,95 @@ font-family: 'Ubuntu', sans-serif; */
 
 .OpportunitiesContainer{
   width: 50%;
-  height: 60%;
+  height: 82%;
 
   background-color: #515151;
+  /* margin-top: 1rem; */
+
+  padding: 2rem;
+  
 }
 
 
+.Opportunities{
+
+  font-size: 6rem;
+  font-weight: 900;
+  color: white;
+  
+}
+
+.OpportunitiesLine2{
+
+  font-size: 2rem;
+  font-weight: 900;
+  
+  position: absolute;
+
+  bottom: -0.9rem;
+  right: 10.5rem;
+
+  color: white;
+
+}
+
+.OpportunitiesWrapper{
+
+  margin-bottom: 2rem;
+}
+
+.spanInside{
+
+  background-color: white;
+  color: #515151;
+
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+.OpportunitesPoints{
+
+  font-size: 1.3rem;
+  color: white;
+  
+  margin-left: 4rem;
+  margin-top: 2.5rem;
+}
+
+
+
+/* TECHNOLOGIES WE ARE EXITED ABOUT SECTION */
+
+#TechnologiesWeAreExitedAbout{
+  height: 100vh;
+  width: 100%;
+  background: yellow;
+
+  position: relative;
+}
+
+.TechnologiesHeading{
+
+  font-size: 5rem;
+  font-weight: 900;
+  color: #363636;
+}
+
+.TechnologiesSubHeading{
+
+
+  font-size: 2rem;
+  font-weight: 900;
+  color: #363636;
+}
+
+._technologiesCardDiv{
+
+  width: 70rem;
+  background-color: #515151;
+
+  color: white;
+  padding: 2rem;
+
+  font-size: 1.4rem;
+}
 
