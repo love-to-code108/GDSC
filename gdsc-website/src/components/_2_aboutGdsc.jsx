@@ -34,7 +34,7 @@ export const AboutSection = () => {
                 {/* BRANCH 2 */}
                 <img className="lineMedium2" src={gitMediumLine} alt="" />
                 <img className="lineMedium3" src={gitMediumLine} alt="" />
-                <img className="lineMedium3 lineMedium3-1" src={gitMediumLine} alt="" />
+                <img className="lineMedium3-1" src={gitMediumLine} alt="" />
 
                 {/* THE MAIN  */}
                 <img className="lineMedium4" src={gitMediumLine} alt="" />

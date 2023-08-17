@@ -190,7 +190,7 @@ font-family: 'Ubuntu', sans-serif; */
 
 .card2{
   top: 25rem;
-  left: 4rem;
+  right: 58rem;
 }
 
 .card3{
@@ -268,16 +268,19 @@ font-family: 'Ubuntu', sans-serif; */
 .lineMedium3{
 
   position: absolute;
-  left:80rem ;
-  bottom: 12rem;
+  right:50rem ;
+  bottom: 19.5rem;
   rotate: 90deg;
 }
 
 
 .lineMedium3-1{
 
-  left: 67rem;
-  bottom:12rem ;
+  position: absolute;
+  rotate: 90deg;
+
+  right: 36.7rem;
+  bottom:19.5rem ;
 }
 
 
@@ -297,26 +300,27 @@ font-family: 'Ubuntu', sans-serif; */
 .lineMedium5{
 
   position: absolute;
-  bottom: -5rem;
+  /* bottom: -5rem; */
 }
 
 .lineMedium5-1{
 
-  right: 17rem;
+  bottom: 2.5rem;
+  right: 17.3rem;
   rotate: 90deg;
 }
 
 
 .lineMedium5-2{
 
-  bottom: -16rem;
-  left: 33.5rem;
+  bottom: -8.2rem;
+  right: 83.4rem;
 }
 
 .lineMedium5-3{
 
-  bottom: -5.5rem;
-  left: 44rem;
+  bottom: 2rem;
+  right: 73rem;
   rotate: 90deg;
 }
 /* STARING WITH SECTION 3 OPPORTUNITIES */
@@ -333,7 +337,7 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 .OpportunitiesContainer{
-  width: 50%;
+  width: 64rem;
   height: 49rem;
 
   background-color: #515151;
