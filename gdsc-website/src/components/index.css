@@ -1,0 +1,754 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* FONTS ARE WRITTEN HERE */
+
+
+/* font-family: 'Borel', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'JetBrains Mono', monospace;
+font-family: 'Jost', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Sora', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+
+.font-sora {
+  font-family: 'Sora', sans-serif;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-jetbrain{
+  font-family: 'JetBrains Mono', monospace;
+}
+
+
+
+/* ========================================= */
+/* THE HERO SECTION STARTS HERE */
+#HeroSection_1_{
+  width: 100%;
+  height: 61rem;
+
+
+  /* background-color: green; */
+
+  /* overflow: hidden; */
+
+}
+
+#JoinButton{
+
+  user-select: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#JoinButton:hover{
+
+  scale: 1.02;
+}
+
+
+#LongSvgLine{
+  z-index: +500;
+}
+
+.GDSCbig{
+
+  font-size: 21rem;
+  rotate: 90deg;
+
+  font-weight: 900;
+  line-height: 0;
+
+  left: -23rem;
+  top: 29rem;
+
+  color: #363636;
+}
+
+.UEM{
+  width: 50rem ;
+  height: 18rem;
+  /* background-color: yellow; */
+  
+}
+
+.lg_UEM{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  line-height: 0;
+}
+
+
+.Jaipur{
+  width: 25rem;
+  height: 6rem;
+
+  background-color: rgba(197, 182, 182,0);
+}
+
+.androidGif{
+  pointer-events: none;
+  user-select: none;
+}
+
+.GoogleStudentDeveloperStudentClubs{
+
+  width: 38rem;
+}
+
+.gitBigLine{
+  height: 200vh;
+  width: 10rem;
+}
+
+.gdscLogoContainer{
+
+  position: absolute;
+  top: -3.56rem;
+  left: 6rem;
+
+  width: 15%;
+}
+
+/* ====================================== */
+/* THE ABOUT GDSC SECTION */
+
+
+#AboutSection{
+
+  width: 100%;
+  height: 61rem;
+
+  background-color: white;
+  margin-bottom: 5rem;
+}
+
+.card{
+  background-color: #515151;
+
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  width: 55rem;
+
+  border-radius: 0.3rem;
+
+
+}
+
+.conceptOfGdsc{
+
+  font-size: 2.5rem ;
+  font-weight: 800;
+}
+
+.card1Para{
+  width: 42rem;
+  font-size: 1.1rem;
+
+}
+
+.gdscMain{
+
+  rotate: 90deg;
+  font-size: 4rem;
+  
+  font-weight: 900;
+
+  right: 0;
+  top: 4rem;
+
+  background: #cccccc;
+
+  padding-left: 1rem;
+  padding-right: 1.6rem;
+
+  color: white;
+
+}
+
+.card1{
+
+  top: 8rem;
+  right: 20rem;
+}
+
+.card2{
+  top: 25rem;
+  right: 58rem;
+}
+
+.card3{
+  top: 42rem;
+  right: 20rem;
+}
+
+/* THE GIT LINES */
+.lineMedium1{
+
+  position: absolute;
+  right: 6.9rem;
+  top: -5.5rem;
+}
+
+.lineHead1{
+
+  position: absolute;
+  width: 2.4rem;
+  right: 6.01rem;
+  top: 13rem;
+
+}
+
+.lineSmall1{
+
+  position:absolute;
+  right: 10rem;
+  top: 12rem;
+
+  rotate: 90deg;
+
+}
+
+.lineSmall1-1{
+
+  right: 14.5rem;
+}
+
+.lineSmall1-2{
+
+  right: 17.5rem;
+}
+
+.lineHead2{
+
+  width: 2.4rem;
+  position: absolute;
+
+  right: 25.5rem;
+  top: 31rem;
+}
+
+.lineHead2-2{
+
+  right: 6rem;
+  top: 48rem;
+}
+
+.lineHead2-3{
+
+  right: 82.5rem;
+  top: 48.5rem;
+}
+
+.lineMedium2{
+
+  position: absolute;
+  right: 26.4rem;
+  top: 12.5rem;
+}
+
+
+
+.lineMedium3{
+
+  position: absolute;
+  right:50rem ;
+  bottom: 19.5rem;
+  rotate: 90deg;
+}
+
+
+.lineMedium3-1{
+
+  position: absolute;
+  rotate: 90deg;
+
+  right: 36.7rem;
+  bottom:19.5rem ;
+}
+
+
+.lineMedium4{
+
+  position: absolute;
+  right: 6.9rem;
+  top: 15rem;
+}
+
+.lineMedium4-1{
+
+  right: 6.9rem;
+  top: 29.5rem;
+}
+
+.lineMedium5{
+
+  position: absolute;
+  /* bottom: -5rem; */
+}
+
+.lineMedium5-1{
+
+  bottom: 2.5rem;
+  right: 17.3rem;
+  rotate: 90deg;
+}
+
+
+.lineMedium5-2{
+
+  bottom: -8.2rem;
+  right: 83.4rem;
+}
+
+.lineMedium5-3{
+
+  bottom: 2rem;
+  right: 73rem;
+  rotate: 90deg;
+}
+/* STARING WITH SECTION 3 OPPORTUNITIES */
+#Opportunities{
+
+  height: 61rem;
+  width: 100%;
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.OpportunitiesContainer{
+  width: 64rem;
+  height: 49rem;
+
+  background-color: #515151;
+  /* margin-top: 1rem; */
+
+  padding: 2rem;
+
+  border-radius: 0.5rem;
+  
+}
+
+
+.Opportunities{
+
+  font-size: 6rem;
+  font-weight: 900;
+  color: white;
+  
+}
+
+.OpportunitiesLine2{
+
+  font-size: 2rem;
+  font-weight: 900;
+  
+  position: absolute;
+
+  bottom: -1rem;
+  right: 10.5rem;
+
+  color: white;
+
+}
+
+.OpportunitiesWrapper{
+
+  margin-bottom: 2rem;
+}
+
+.spanInside{
+
+  background-color: white;
+  color: #515151;
+
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+.OpportunitesPoints{
+
+  font-size: 1.3rem;
+  color: white;
+  
+  margin-left: 4rem;
+  margin-top: 2.5rem;
+}
+
+
+
+/* TECHNOLOGIES WE ARE EXITED ABOUT SECTION */
+
+#TechnologiesWeAreExitedAbout{
+  height: 128rem;
+  width: 100%;
+  background: white;
+
+  position: relative;
+
+  margin-bottom: 20rem;
+}
+
+
+.TechnologiesHeading{
+
+  font-size: 5rem;
+  font-weight: 900;
+  color: #363636;
+}
+
+.TechnologiesSubHeading{
+
+
+  font-size: 2rem;
+  font-weight: 900;
+  color: #363636;
+
+  position: absolute;
+
+  bottom: -1.4rem;
+  right: 0.25rem;
+
+
+}
+
+._technologiesCardDiv{
+
+  width: 70rem;
+  height: 18rem;
+  background-color: #515151;
+
+  color: white;
+  padding: 2rem;
+
+  font-size: 1.4rem;
+
+  margin-right: 20rem;
+  margin-top: 6rem;
+
+  border-radius: 0.4rem;
+}
+
+
+
+#gitAdd{
+
+  position: absolute;
+  bottom: 16rem;
+  right: 6.8rem;
+}
+
+#gitCommit{
+
+  position: absolute;
+  bottom: 2.8rem;
+  right: 6.8rem;
+}
+
+#gitPush{
+
+  position: absolute;
+  bottom: -10.4rem;
+  right: 6.8rem;
+}
+
+.mediumBig{
+
+  position: absolute;
+  top: 12rem;
+  right: 13.2rem;
+}
+
+.mediumBig2{
+
+  position: absolute;
+  top: 47rem;
+  right: 13.2rem;
+}
+
+
+
+
+/* TEAM SECTION BELOW HERE */
+#TeamSection{
+
+  height: 65rem;
+  width: 100%;
+
+  background-color: white;
+}
+
+.TeamsHeadingWrapper{
+
+position: relative;
+margin:4rem 5rem ;
+}
+
+.headingTeams{
+
+  font-size: 5rem;
+  font-weight: 900;
+
+  color: #363636;
+  
+}
+
+.subheadingTeams{
+
+  font-size: 1.4rem;
+  font-weight: 900;
+
+  color: #363636;
+
+  position: absolute;
+  bottom: -0.4rem;
+  left: 0;
+
+}
+
+
+.teamMemberGrid{
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+
+
+
+}
+
+.teamMemberPic{
+  width: 100%;
+}
+
+.teamMemberPicEdit{
+  width: 100%;
+}
+
+.teamCard{
+
+  width: 30rem;
+  padding: 2rem;
+
+  /* border: 2px solid black; */
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: start;
+
+  background-color: #E8E8E8;
+
+  border-radius: 0.5rem;
+  
+  transition: 0.1s;
+  cursor: pointer;
+  
+}
+
+.teamCard:hover{
+
+  scale: 1.02;
+}
+
+.teamMemberPicEdit{
+
+  border-radius: 0.5rem;
+}
+
+.socialsLogos{
+
+  width: 100%;
+}
+
+.membersName{
+  font-size: 2rem;
+  font-weight: 700;
+
+  line-height: 1;
+
+  padding: 1rem;
+
+  color: #363636;
+
+  background-color: white;
+
+  margin-left: 2.5rem;
+  margin-top: 2rem;
+
+}
+
+.membersDesignamtion{
+
+  margin-top: 1rem;
+  font-size: 1.8rem;
+
+  font-weight: 800;
+}
+
+.aboutMember{
+
+  font-size: 0.9rem;
+}
+
+
+/* THE EVENTS SECTION */
+#EventSection{
+
+  height: 60rem;
+  background-color: white;
+
+  margin-bottom: 10rem;
+}
+
+
+.EventsHeadingWrapper{
+
+  margin-bottom: 6rem;
+}
+
+.eventContainer{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 30rem;
+  padding: 2rem;
+
+  background-color: #363636;
+
+  border-radius: 0.5rem;
+
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.eventContainer:hover{
+  scale: 1.02;
+}
+
+
+
+.eventCardName{
+
+  font-size: 2rem;
+  padding-top: 1rem;
+
+  font-weight: 900;
+  
+
+}
+
+.icons{
+
+  width: 2rem;
+  margin-right: 1rem;
+  /* padding-top: 1rem; */
+  
+}
+
+.calanderImgEdit{
+  margin-right: 1rem;
+}
+
+
+.dateWrapper{
+
+  margin-top: 2rem;
+}
+.timeWrapper{
+
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.eventDetailsWrapper{
+
+  margin-top: 1rem;
+}
+
+
+.eventDetails{
+
+  font-size: 1.2rem;
+}
+
+
+/* CONTACT US SECTION  */
+#contactUsSection{
+
+  height: 20rem;
+  background-color: #363636;
+}
+
+.letsConnect{
+
+  color: white;
+  font-size: 4rem;
+  margin-left: 5rem;
+  padding-top: 2rem;
+
+  font-weight: 900;
+}
+
+.gdscMainConnect{
+
+  rotate: 90deg;
+  font-size: 4rem;
+  
+  font-weight: 900;
+
+  left: 30%;
+  top: 4.2rem;
+
+  background: #cccccc;
+
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+
+  color: white;
+  cursor: pointer;
+  
+  transition: 0.1s;
+}
+
+
+.gdscMainConnect:hover{
+
+  scale: 1.05;
+}
+
+.instagram{
+
+  width: 2rem;
+  margin-left: 5rem;
+}
+
+.socialsContainer{
+
+  width: 20%;
+}
+.socials{
+
+  margin-right: 1rem;
+}
