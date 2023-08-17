@@ -542,3 +542,63 @@ margin:4rem 5rem ;
 
   font-size: 1.2rem;
 }
+
+
+/* CONTACT US SECTION  */
+#contactUsSection{
+
+  height: 20rem;
+  background-color: #363636;
+}
+
+.letsConnect{
+
+  color: white;
+  font-size: 4rem;
+  margin-left: 5rem;
+  padding-top: 2rem;
+
+  font-weight: 900;
+}
+
+.gdscMainConnect{
+
+  rotate: 90deg;
+  font-size: 4rem;
+  
+  font-weight: 900;
+
+  left: 30%;
+  top: 4.2rem;
+
+  background: #cccccc;
+
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+
+  color: white;
+  cursor: pointer;
+  
+  transition: 0.1s;
+}
+
+
+.gdscMainConnect:hover{
+
+  scale: 1.05;
+}
+
+.instagram{
+
+  width: 2rem;
+  margin-left: 5rem;
+}
+
+.socialsContainer{
+
+  width: 20%;
+}
+.socials{
+
+  margin-right: 1rem;
+}
