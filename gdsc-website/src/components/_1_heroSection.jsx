@@ -111,7 +111,7 @@ export const HeroSection = () => {
 
 
 
-            {/* THE GIT BRANCH TAG */}
+            {/* THE ECHO TAG */}
             <div id="gitTag" className=" absolute flex justify-evenly items-center font-jetbrain rounded-lg
         lg:px-8 lg:py-3 bg-white drop-shadow-lg lg:top-[4rem] lg:right-[5rem]"
             >
@@ -138,7 +138,7 @@ export const HeroSection = () => {
 
 
 
-            {/* THE GIT CHECKOUT TAG */}
+            {/* THE GIT BRANCH TAG */}
             <div id="gitTag" className=" absolute flex justify-evenly items-center font-jetbrain rounded-lg
         lg:px-8 lg:py-3 bg-white drop-shadow-lg lg:top-[17rem] lg:right-[5rem]"
             >
@@ -163,7 +163,7 @@ export const HeroSection = () => {
 
 
 
-            {/* THE ECHO TAG THAT SAYS LETS BUILD SOMETHING AMAZING TOGETHER */}
+            {/* THE GIT CHECKOUT TAG */}
             <div id="gitTag" className=" absolute flex justify-evenly items-center font-jetbrain rounded-lg
         lg:px-8 lg:py-3 bg-white drop-shadow-lg lg:top-[30.5rem] lg:right-[5rem]"
             >

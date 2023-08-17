@@ -338,3 +338,79 @@ font-family: 'Ubuntu', sans-serif; */
   margin-top: 6rem;
 }
 
+
+
+/* TEAM SECTION BELOW HERE */
+#TeamSection{
+
+  height: 100vh;
+  width: 100%;
+
+  background-color: white;
+}
+
+.teamMemberPic{
+  width: 100%;
+}
+
+.teamMemberPicEdit{
+  width: 100%;
+}
+
+.teamCard{
+
+  width: 30rem;
+  padding: 2rem;
+
+  /* border: 2px solid black; */
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: start;
+
+  background-color: #E8E8E8;
+
+  border-radius: 0.5rem;
+  
+}
+
+.teamMemberPicEdit{
+
+  border-radius: 0.5rem;
+}
+
+.socialsLogos{
+
+  width: 100%;
+}
+
+.membersName{
+  font-size: 2rem;
+  font-weight: 700;
+
+  line-height: 1;
+
+  padding: 1rem;
+
+  color: #363636;
+
+  background-color: white;
+
+  margin-left: 2.5rem;
+  margin-top: 2rem;
+
+}
+
+.membersDesignamtion{
+
+  margin-top: 1rem;
+  font-size: 1.8rem;
+
+  font-weight: 800;
+}
+
+.aboutMember{
+
+  font-size: 0.9rem;
+}

@@ -558,6 +558,10 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.ml-4 {
+  margin-left: 1rem;
+}
+
 .mr-12 {
   margin-right: 3rem;
 }
@@ -576,6 +580,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-center {
@@ -603,11 +611,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .px-2 {
@@ -642,6 +645,16 @@ video {
 
 .drop-shadow-lg {
   --tw-drop-shadow: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.drop-shadow-md {
+  --tw-drop-shadow: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.drop-shadow-xl {
+  --tw-drop-shadow: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
@@ -910,6 +923,62 @@ font-family: 'Ubuntu', sans-serif; */
   margin-top: 6rem;
 }
 
+/* TEAM SECTION BELOW HERE */
+
+#TeamSection{
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+}
+
+.teamMemberPic{
+  width: 100%;
+}
+
+.teamMemberPicEdit{
+  width: 100%;
+}
+
+.teamCard{
+  width: 30rem;
+  padding: 2rem;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-color: #E8E8E8;
+  border-radius: 0.5rem;
+}
+
+.teamMemberPicEdit{
+  border-radius: 0.5rem;
+}
+
+.socialsLogos{
+  width: 100%;
+}
+
+.membersName{
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  padding: 1rem;
+  color: #363636;
+  background-color: white;
+  margin-left: 2.5rem;
+  margin-top: 2rem;
+}
+
+.membersDesignamtion{
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.aboutMember{
+  font-size: 0.9rem;
+}
+
 @media (min-width: 1024px) {
   .lg\:absolute {
     position: absolute;
@@ -1056,4 +1125,3 @@ font-family: 'Ubuntu', sans-serif; */
     font-weight: 900;
   }
 }
-
