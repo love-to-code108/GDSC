@@ -554,6 +554,14 @@ video {
   top: 64%;
 }
 
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mr-12 {
+  margin-right: 3rem;
+}
+
 .flex {
   display: flex;
 }
@@ -582,6 +590,11 @@ video {
   border-radius: 0.5rem;
 }
 
+.bg-\[\#363636\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(54 54 54 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#4385f3\] {
   --tw-bg-opacity: 1;
   background-color: rgb(67 133 243 / var(--tw-bg-opacity));
@@ -590,6 +603,21 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-xl {
@@ -801,7 +829,7 @@ font-family: 'Ubuntu', sans-serif; */
 #Opportunities{
   height: 100vh;
   width: 100%;
-  background-color: green;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -825,7 +853,7 @@ font-family: 'Ubuntu', sans-serif; */
   font-size: 2rem;
   font-weight: 900;
   position: absolute;
-  bottom: -0.9rem;
+  bottom: -1rem;
   right: 10.5rem;
   color: white;
 }
@@ -850,9 +878,9 @@ font-family: 'Ubuntu', sans-serif; */
 /* TECHNOLOGIES WE ARE EXITED ABOUT SECTION */
 
 #TechnologiesWeAreExitedAbout{
-  height: 100vh;
+  height: 200vh;
   width: 100%;
-  background: yellow;
+  background: white;
   position: relative;
 }
 
@@ -866,14 +894,20 @@ font-family: 'Ubuntu', sans-serif; */
   font-size: 2rem;
   font-weight: 900;
   color: #363636;
+  position: absolute;
+  bottom: -1.4rem;
+  right: 0.25rem;
 }
 
 ._technologiesCardDiv{
   width: 70rem;
+  height: 18rem;
   background-color: #515151;
   color: white;
   padding: 2rem;
   font-size: 1.4rem;
+  margin-right: 20rem;
+  margin-top: 6rem;
 }
 
 @media (min-width: 1024px) {
