@@ -14,10 +14,10 @@ export const TeamSection = () => {
         <div id="TeamSection">
 
 
-            <div>
-                <p>TEAM</p>
+            <div className="font-poppins TeamsHeadingWrapper">
+                <p className="headingTeams">TEAM</p>
 
-                <p>PASSIONATE STUDENTS INSPIRING THE UPCOMING GENERATIONS</p>
+                <p className="subheadingTeams">PASSIONATE STUDENTS INSPIRING THE UPCOMING GENERATIONS</p>
             </div>
 
             <div className="teamMemberGrid">

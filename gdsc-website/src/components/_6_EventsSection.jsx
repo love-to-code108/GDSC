@@ -15,20 +15,21 @@ export const EventsSection = () => {
     return (
         <div id="EventSection">
 
-            <div>
+            <div className="font-poppins TeamsHeadingWrapper EventsHeadingWrapper">
+                <p className="headingTeams">EVENTS</p>
 
-
-                <p>EVENTS</p>
-
-                <p>LETS LEARN SHARE KNOWLEDGE AND CONNECT WITH EACH OTHER</p>
+                <p className="subheadingTeams">LETS LEARN SHARE KNOWLEDGE AND CONNECT WITH EACH OTHER</p>
 
             </div>
 
             {/* THE EVENT CARDS */}
 
-            <div>
+            <div className="teamMemberGrid">
+
+
+
                 {/* EVENT CARD _1_ */}
-                <div className="eventContainer font-sora text-white">
+                <div className="eventContainer font-sora text-white drop-shadow-lg">
 
                     <div>
                         <img className="eventImageEdit" src={eventPoster} alt="" />
@@ -52,10 +53,75 @@ export const EventsSection = () => {
                         </div>
 
                     </div>
-
-
-
                 </div>
+
+
+
+                {/* EVENT CARD _2_ */}
+                <div className="eventContainer font-sora text-white drop-shadow-lg">
+
+                    <div>
+                        <img className="eventImageEdit" src={eventPoster} alt="" />
+                    </div>
+
+                    <p className="eventCardName">UPCOMMING EVENT</p>
+
+
+                    <div className="eventDetailsWrapper">
+                        <div className="flex items-center justify-start dateWrapper">
+                            <img className="calanderImgEdit icons" src={calander} alt="" />
+                            <p className="eventDetails">Event Date:  9th
+                                August 1945</p>
+                        </div>
+
+
+
+                        <div className="flex items-center justify-start timeWrapper">
+                            <img className="clockImgEdit icons" src={clock} alt="" />
+                            <p className="eventDetails">Time: 8:15 AM</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+
+
+
+                {/* EVENT CARD _3_ */}
+                <div className="eventContainer font-sora text-white drop-shadow-lg">
+
+                    <div>
+                        <img className="eventImageEdit" src={eventPoster} alt="" />
+                    </div>
+
+                    <p className="eventCardName">UPCOMMING EVENT</p>
+
+
+                    <div className="eventDetailsWrapper">
+                        <div className="flex items-center justify-start dateWrapper">
+                            <img className="calanderImgEdit icons" src={calander} alt="" />
+                            <p className="eventDetails">Event Date:  9th
+                                August 1945</p>
+                        </div>
+
+
+
+                        <div className="flex items-center justify-start timeWrapper">
+                            <img className="clockImgEdit icons" src={clock} alt="" />
+                            <p className="eventDetails">Time: 8:15 AM</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+
+
             </div>
 
 

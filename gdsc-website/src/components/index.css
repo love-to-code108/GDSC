@@ -343,10 +343,38 @@ font-family: 'Ubuntu', sans-serif; */
 /* TEAM SECTION BELOW HERE */
 #TeamSection{
 
-  height: 100vh;
+  height: 120vh;
   width: 100%;
 
   background-color: white;
+}
+
+.TeamsHeadingWrapper{
+
+position: relative;
+margin:4rem 5rem ;
+}
+
+.headingTeams{
+
+  font-size: 5rem;
+  font-weight: 900;
+
+  color: #363636;
+  
+}
+
+.subheadingTeams{
+
+  font-size: 1.4rem;
+  font-weight: 900;
+
+  color: #363636;
+
+  position: absolute;
+  bottom: -0.4rem;
+  left: 0;
+
 }
 
 
@@ -384,6 +412,14 @@ font-family: 'Ubuntu', sans-serif; */
 
   border-radius: 0.5rem;
   
+  transition: 0.1s;
+  cursor: pointer;
+  
+}
+
+.teamCard:hover{
+
+  scale: 1.02;
 }
 
 .teamMemberPicEdit{
@@ -430,8 +466,14 @@ font-family: 'Ubuntu', sans-serif; */
 /* THE EVENTS SECTION */
 #EventSection{
 
-  height: 100vh;
+  height: 105vh;
   background-color: white;
+}
+
+
+.EventsHeadingWrapper{
+
+  margin-bottom: 6rem;
 }
 
 .eventContainer{
@@ -445,8 +487,14 @@ font-family: 'Ubuntu', sans-serif; */
 
   background-color: #363636;
 
-  
+  border-radius: 0.5rem;
 
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.eventContainer:hover{
+  scale: 1.02;
 }
 
 
