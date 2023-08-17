@@ -14,12 +14,17 @@ import gitMediumLine from "../assets/svg/Line 24.svg"
 
 
 // IMPORTING GSAP ANIMATION SOFTWARE    
-// import { gsap } from "gsap";
+import { gsap } from "gsap";
 
 
-// import { useEffect } from "react";
+import { useEffect } from "react";
 
 
+
+    alert(`This website is not responsive so to view this website as intended and for the best viewing experience\n 
+    step1: right Click and choose "inspect elements" from the drop down\n
+    step2: then go to the center top part of the window and give the dimensions\n
+    1880 857`);
 
 
 
@@ -28,9 +33,11 @@ export const HeroSection = () => {
 
 
 
-    // useEffect(() => {
 
-    // })
+
+    useEffect(() => {
+            
+    })
 
     return (
         <div id="HeroSection_1_" className="flex flex-col items-center">
