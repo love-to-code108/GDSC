@@ -38,7 +38,7 @@ font-family: 'Ubuntu', sans-serif; */
 /* THE HERO SECTION STARTS HERE */
 #HeroSection_1_{
   width: 100%;
-  height: 100vh;
+  height: 61rem;
 
 
   /* background-color: green; */
@@ -131,7 +131,7 @@ font-family: 'Ubuntu', sans-serif; */
 #AboutSection{
 
   width: 100%;
-  height: 100vh;
+  height: 61rem;
 
   background-color: white;
   margin-bottom: 5rem;
@@ -322,7 +322,7 @@ font-family: 'Ubuntu', sans-serif; */
 /* STARING WITH SECTION 3 OPPORTUNITIES */
 #Opportunities{
 
-  height: 100vh;
+  height: 61rem;
   width: 100%;
   background-color: white;
 
@@ -395,7 +395,7 @@ font-family: 'Ubuntu', sans-serif; */
 /* TECHNOLOGIES WE ARE EXITED ABOUT SECTION */
 
 #TechnologiesWeAreExitedAbout{
-  height: 240vh;
+  height: 128rem;
   width: 100%;
   background: white;
 
@@ -487,7 +487,7 @@ font-family: 'Ubuntu', sans-serif; */
 /* TEAM SECTION BELOW HERE */
 #TeamSection{
 
-  height: 120vh;
+  height: 65rem;
   width: 100%;
 
   background-color: white;
@@ -610,7 +610,7 @@ margin:4rem 5rem ;
 /* THE EVENTS SECTION */
 #EventSection{
 
-  height: 105vh;
+  height: 60rem;
   background-color: white;
 
   margin-bottom: 10rem;

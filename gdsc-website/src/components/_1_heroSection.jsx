@@ -14,30 +14,39 @@ import gitMediumLine from "../assets/svg/Line 24.svg"
 
 
 // IMPORTING GSAP ANIMATION SOFTWARE    
-import { gsap } from "gsap";
+// import { gsap } from "gsap";
 
 
-import { useEffect } from "react";
+// import { useEffect } from "react";
 
 
 
-    alert(`This website is not responsive so to view this website as intended and for the best viewing experience\n 
-    step1: right Click and choose "inspect elements" from the drop down\n
-    step2: then go to the center top part of the window and give the dimensions\n
-    1880 857`);
 
 
 
 
 export const HeroSection = () => {
+    
+    
+    
+    // alert(`This website is not responsive so to view this website as intended and for the best viewing experience\n 
+    // step1: right Click and choose "inspect elements" from the drop down\n
+    // step2: then go to the center top part of the window and give the dimensions\n
+    // 1880 857`);
 
 
+    // useEffect(() => {
+        // const gitEcho = document.getElementById("gitEcho");
+        // const gitBranch = document.getElementById("gitBranch");
+        // const gitCheckout = document.getElementById("gitCheckout");
 
 
-
-    useEffect(() => {
-            
-    })
+        // gsap.fromTo("#gitEcho",{
+        //     x:500,
+        //     ease:"power3",
+        //     duration:2,
+        // })
+    // },[])
 
     return (
         <div id="HeroSection_1_" className="flex flex-col items-center">
@@ -119,7 +128,7 @@ export const HeroSection = () => {
 
 
             {/* THE ECHO TAG */}
-            <div id="gitTag" className=" absolute flex justify-evenly items-center font-jetbrain rounded-lg
+            <div id="gitEcho" className=" absolute flex justify-evenly items-center font-jetbrain rounded-lg
         lg:px-8 lg:py-3 bg-white drop-shadow-lg lg:top-[4rem] lg:right-[5rem]"
             >
 
@@ -146,7 +155,7 @@ export const HeroSection = () => {
 
 
             {/* THE GIT BRANCH TAG */}
-            <div id="gitTag" className=" absolute flex justify-evenly items-center font-jetbrain rounded-lg
+            <div id="gitBranch" className=" absolute flex justify-evenly items-center font-jetbrain rounded-lg
         lg:px-8 lg:py-3 bg-white drop-shadow-lg lg:top-[17rem] lg:right-[5rem]"
             >
 
@@ -171,7 +180,7 @@ export const HeroSection = () => {
 
 
             {/* THE GIT CHECKOUT TAG */}
-            <div id="gitTag" className=" absolute flex justify-evenly items-center font-jetbrain rounded-lg
+            <div id="gitCheckout" className=" absolute flex justify-evenly items-center font-jetbrain rounded-lg
         lg:px-8 lg:py-3 bg-white drop-shadow-lg lg:top-[30.5rem] lg:right-[5rem]"
             >
 
