@@ -349,6 +349,17 @@ font-family: 'Ubuntu', sans-serif; */
   background-color: white;
 }
 
+
+.teamMemberGrid{
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+
+
+
+}
+
 .teamMemberPic{
   width: 100%;
 }
@@ -414,3 +425,7 @@ font-family: 'Ubuntu', sans-serif; */
 
   font-size: 0.9rem;
 }
+
+
+/* THE EVENTS SECTION */
+

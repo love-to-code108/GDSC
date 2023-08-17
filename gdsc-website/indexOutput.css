@@ -653,11 +653,6 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.drop-shadow-xl {
-  --tw-drop-shadow: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
 /* FONTS ARE WRITTEN HERE */
 
 /* font-family: 'Borel', cursive;
@@ -931,6 +926,12 @@ font-family: 'Ubuntu', sans-serif; */
   background-color: white;
 }
 
+.teamMemberGrid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+}
+
 .teamMemberPic{
   width: 100%;
 }
@@ -978,6 +979,8 @@ font-family: 'Ubuntu', sans-serif; */
 .aboutMember{
   font-size: 0.9rem;
 }
+
+/* THE EVENTS SECTION */
 
 @media (min-width: 1024px) {
   .lg\:absolute {
@@ -1125,3 +1128,4 @@ font-family: 'Ubuntu', sans-serif; */
     font-weight: 900;
   }
 }
+

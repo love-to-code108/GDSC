@@ -20,5 +20,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <OpportunitiesSection/>
     <TechnologiesWeAreExitedAbout/>
     <TeamSection/>
+    
   </React.StrictMode>,
 )
