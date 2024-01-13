@@ -42,9 +42,9 @@ export const App = () => {
             <HeroSection />
             <AboutSection />
             <OpportunitiesSection />
-            <TechnologiesWeAreExitedAbout />
-            <TeamSection />
             <EventsSection />
+            <TeamSection />
+            <TechnologiesWeAreExitedAbout />
             <ContactUsSection />
         </div>)
     )
