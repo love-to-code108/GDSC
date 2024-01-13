@@ -8,9 +8,12 @@ import { TechnologiesWeAreExitedAbout } from './components/_4_Technologies'
 import { TeamSection } from './components/_5_TeamSection'
 import { EventsSection } from './components/_6_EventsSection'
 import { ContactUsSection } from './components/_7_ContactUs'
+import Loader from './components/Loader'
 
 
 // IMPORTING REACT HOOKS BELOW
+import { useState } from 'react'
+import { useEffect } from 'react'
 
 export const App = () => {
 
@@ -21,7 +24,7 @@ export const App = () => {
     useEffect(() => {
         const timeout = setTimeout(() => {
             setLoading(false);
-        }, 6000);
+        }, 5900);
 
         return () => clearTimeout(timeout);
     }, []);
@@ -31,6 +34,10 @@ export const App = () => {
 
 
     return (
+
+        loading ? (
+            <Loader />
+          ) : (
         <div>
             <HeroSection />
             <AboutSection />
@@ -39,6 +46,6 @@ export const App = () => {
             <TeamSection />
             <EventsSection />
             <ContactUsSection />
-        </div>
+        </div>)
     )
 }

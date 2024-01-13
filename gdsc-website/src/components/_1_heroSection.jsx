@@ -17,15 +17,6 @@ import gitMediumLine from "../assets/svg/Line 24.svg"
 // import { gsap } from "gsap";
 
 
-import { useEffect } from "react";
-import { useState } from "react"
-import Loader from "./Loader"
-
-
-
-
-
-
 
 export const HeroSection = () => {
 
@@ -55,9 +46,7 @@ export const HeroSection = () => {
 
         return (
             
-            loading ? (
-                <Loader />
-              ) : (
+            
 
             <div id="HeroSection_1_" className="flex flex-col items-center">
 
@@ -211,6 +200,6 @@ export const HeroSection = () => {
                 </div>
 
 
-            </div>)
+            </div>
         );
     }
