@@ -140,13 +140,15 @@ font-family: 'Ubuntu', sans-serif; */
 .card{
   background-color: #515151;
 
-  padding-left: 1rem;
+  padding-left: 2rem;
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
 
   width: 55rem;
 
   border-radius: 0.3rem;
+
+  
 
 
 }
@@ -495,6 +497,8 @@ font-family: 'Ubuntu', sans-serif; */
   width: 100%;
 
   background-color: white;
+
+  margin-bottom: 8rem;
 }
 
 .TeamsHeadingWrapper{
